@@ -9,9 +9,9 @@
 	<header>
 		<div class="container">
 		<div id="brandname">
-			ML App
+			DARNA
 		</div>
-		<h2>Spam Detector For SMS Messages</h2>
+		<h2>Detection of Anomaly in OFW Recruitment Posts thru Artificial Neural Network</h2>
 		
 	</div>
 	</header>
@@ -21,9 +21,9 @@
 
 		
 	{% if prediction == 1%}
-	<h2 style="color:red;">Spam</h2>
+	<h2 style="color:red;">High Risk</h2>
 	{% elif prediction == 0%}
-	<h2 style="color:blue;">Not a Spam (It is a Ham)</h2>
+	<h2 style="color:blue;">Low Risk</h2>
 	{% endif %}
 
 	</div>
